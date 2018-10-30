@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>7D478134-E842-4AB4-B78B-266A9659ACC4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Pin" fill="#111111">
+            <g id="Group-7" transform="translate(20.000000, 5.000000)">
+                <path d="M30,15 C21.716,15 15,21.716 15,30 C15,38.284 21.716,45 30,45 C38.284,45 45,38.284 45,30 C45,21.716 38.284,15 30,15 M30,19 C36.065,19 41,23.935 41,30 C41,36.065 36.065,41 30,41 C23.935,41 19,36.065 19,30 C19,23.935 23.935,19 30,19" id="Fill-3"></path>
+                <path d="M30,0 C13.432,0 0,13.432 0,30 C0,56 30,85 30,85 C30,85 60,56 60,30 C60,13.432 46.568,0 30,0 M30,4 C44.337,4 56,15.663 56,30 C56,49.468 37.221,71.497 30,79.247 C22.778,71.497 4,49.468 4,30 C4,15.663 15.663,4 30,4" id="Fill-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>
