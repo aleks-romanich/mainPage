@@ -38,7 +38,6 @@
               <li class="b-list__item"><a class="b-list__link" href="#">Каталог подарков</a></li>
               <li class="b-list__item"><a class="b-list__link" href="#">Правила акции</a></li>
               <li class="b-list__item"><a class="b-list__link" href="#">Вопросы и ответы</a></li>
-              <!-- <li class="b-list__item"><a class="b-list__link" href="#">Личный кабинет</a></li> -->
             </ul>
 
             <div class="b-login b-login--menu b-close-pc">
@@ -244,25 +243,204 @@
           <div class="b-form-wrap">
             <h2>Обратная связь</h2>
             <form class="b-form-feedback" >
-              <div class="b-form-feedback__item">
-                <input id="input" class="b-input-name" type="text" name="" value="" placeholder="Имя">
-                <label class="b-label b-label-name " for="input" >Имя</label>
+              <div class="b-form-fields">
+                <div class="b-form-feedback__item b-form-feedback__item--error">
+                  <input  class="b-input-name" type="text" name="" value="" placeholder="Имя">
+                  <label class="b-label b-label-name " for="" >Имя</label>
+                </div>
+                <p class="b-form-error">Ошибка! Кажется, поле заполнено не правильно.</p>
               </div>
-              <div class="b-form-feedback__item">
-                <input class="b-input-email" type="password" name="" value="" placeholder="Адрес e-mail">
-                <label class="b-label-email" for="">Адрес e-mail</label>
+              <div class="b-form-fields">
+                <div class="b-form-feedback__item">
+                  <input class="b-input-email" type="password" name="" value="" placeholder="Адрес e-mail">
+                  <label class="b-label-email" for="">Адрес e-mail</label>
+                </div>
+                <p class="b-form-error"></p>
               </div>
-              <div class="b-form-feedback__item">
-                <input class="b-input-tel" type="phone" name="" value="" placeholder="Телефон">
-                <label class="b-label-tel"for="">Телефон</label>
+              <div class="b-form-fields">
+                <div class="b-form-feedback__item">
+                  <input class="b-input-tel" type="phone" name="" value="" placeholder="Телефон">
+                  <label class="b-label-tel"for="">Телефон</label>
+                </div>
+                <p class="b-form-error"></p>
               </div>
               <textarea class="b-form-feedback__textarea" name="name" rows="8" cols="80"></textarea>
-              <input class="b-form-feedback__btn" type="button" name="" value="Отправить">
+              <input class="b-form-btn b-form-feedback__btn" type="button" name="" value="Отправить">
             </form>
           </div>
         </div>
 
+        <br>
+        <!-- Добро пожаловать на демо-витрину проекта Дари Подарки!-->
+          <div class="b-popup-welcome">
+            <div class="b-popup-welcome__wrap">
+              <div class="b-popup-welcome__item">
+                <h2>Добро пожаловать на демо-витрину проекта Дари Подарки!</h2>
+                <p>Мы предлагаем вам ознакомиться с возможностями нашего решения, а также получить консультацию менеджера по вопросам запуска проекта и призовому фонду под ваши задачи.</p>
+                <button class="b-form-btn b-form-feedback__btn" type="button" name="button">Начать работу</button>
+              </div>
+            </div>
+          </div>
 
+          <br>
+          <!-- Обратная связь!-->
+          <div class="b-form-container">
+            <div class="b-form-arrow">
+              <img src="./assets/images/arrow-form.svg" alt="">
+            </div>
+            <div class="b-form-wrap">
+              <h2>Оформление заявки</h2>
+              <form class="b-form-feedback" >
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item b-form-feedback__item--error">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Имя">
+                    <label class="b-label b-label-name " for="" >Имя</label>
+                  </div>
+                  <p class="b-form-error">Ошибка! Кажется, поле заполнено не правильно.</p>
+                </div>
 
-<script type="text/javascript" src="vendor.b19f64455ab6f5365453.js"></script><script type="text/javascript" src="bundle.4d0e78d9dd518e1226b5.js"></script></body>
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input class="b-input-email" type="password" name="" value="" placeholder="Фамилия">
+                    <label class="b-label-email" for="">Фамилия</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input class="b-input-tel" type="phone" name="" value="" placeholder="Отчество">
+                    <label class="b-label-tel"for="">Отчество</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="E-mail">
+                    <label class="b-label b-label-name " for="" >E-mail</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Номер телефона">
+                    <label class="b-label b-label-name " for="" >Номер телефона</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Название компании">
+                    <label class="b-label b-label-name " for="" >Название компании</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                 <div class="b-dropholder">
+                     <div class="b-dropdown">
+                       <p>Выберите свою должность</p>
+                     </div>
+                     <ul class="b-dropdownMenu">
+                       <li>Администратор</li>
+                       <li>Менеджер по продажам</li>
+                       <li>HR специалист</li>
+                     </ul>
+                   </div>
+                <textarea class="b-form-feedback__textarea" name="name" rows="8" cols="80"></textarea>
+                <input class="b-form-btn b-form-feedback__btn" type="button" name="" value="Отправить">
+              </form>
+            </div>
+          </div>
+
+          <br>
+          <!-- заказ!-->
+          <div class="b-form-container b-form-container--order ">
+            <div class="b-form-arrow">
+              <img src="./assets/images/arrow-form.svg" alt="">
+            </div>
+            <div class="b-form-wrap">
+              <h2>Ваш заказ</h2>
+
+              <div class="b-wrap-sertificate">
+                <div class="b-sert-img">
+                  <img src="" alt="">
+                </div>
+                <div class="b-sertificate">
+                  <h3>Подарочный сертификаи Рив Гош</h3>
+                  <p class="b-sert-title">Номинал</p>
+                  <p class="b-sert-numb">2500 ₽</p>
+                  <p class="b-sert-title">Стоимость</p>
+                  <p  class="b-sert-numb">12 500 баллов</p>
+                </div>
+              </div>
+
+              <!-- <form class="b-form-feedback" >
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item b-form-feedback__item--error">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Имя">
+                    <label class="b-label b-label-name " for="" >Имя</label>
+                  </div>
+                  <p class="b-form-error">Ошибка! Кажется, поле заполнено не правильно.</p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input class="b-input-email" type="password" name="" value="" placeholder="Фамилия">
+                    <label class="b-label-email" for="">Фамилия</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input class="b-input-tel" type="phone" name="" value="" placeholder="Отчество">
+                    <label class="b-label-tel"for="">Отчество</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="E-mail">
+                    <label class="b-label b-label-name " for="" >E-mail</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Номер телефона">
+                    <label class="b-label b-label-name " for="" >Номер телефона</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                <div class="b-form-fields">
+                  <div class="b-form-feedback__item">
+                    <input  class="b-input-name" type="text" name="" value="" placeholder="Название компании">
+                    <label class="b-label b-label-name " for="" >Название компании</label>
+                  </div>
+                  <p class="b-form-error"></p>
+                </div>
+
+                 <div class="b-dropholder">
+                     <div class="b-dropdown">
+                       <p>Выберите свою должность</p>
+                     </div>
+                     <ul class="b-dropdownMenu">
+                       <li>Администратор</li>
+                       <li>Менеджер по продажам</li>
+                       <li>HR специалист</li>
+                     </ul>
+                   </div>
+                <textarea class="b-form-feedback__textarea" name="name" rows="8" cols="80"></textarea>
+                <input class="b-form-btn b-form-feedback__btn" type="button" name="" value="Отправить">
+              </form> -->
+            </div>
+          </div>
+
+<script type="text/javascript" src="vendor.b19f64455ab6f5365453.js"></script><script type="text/javascript" src="bundle.80f6374791499e63e005.js"></script></body>
 </html>
